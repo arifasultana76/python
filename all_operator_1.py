@@ -54,6 +54,39 @@
 
 #Logical_Operators
 
+a = 50
+b = 30
+# print(not False)
+# print(not(a>b))  #not true means false
+
+# val1 = True
+# val2 = True
+# print("AND operators:", val1 and val2) #then ans will be true
+
+# val1 = True
+# val2 = True
+# print("AND operators:",val1 and val2)    
+# print("OR operators:",(a==b) or (a>b))
+
+# val1 = True
+# val2 = False
+# print("AND operators:",val1 and val2)
+# print("OR operators:",(a==b) or (a>b))
+
+val1 = False
+val2 = True
+print("AND operators:",val1 and val2)
+print("OR operators:",(a==b) or (a>b))
+
+#Logic Rulse:
+##And:                       ##OR:
+#False,False= False          #False,False= False
+#False,True= False           #False,True= True
+#True,False= False           #True,False= True
+#True,True= True             #True,True= True
+
+
+
 
 
 
