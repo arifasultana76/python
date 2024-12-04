@@ -76,7 +76,8 @@ b = 30
 val1 = False
 val2 = True
 print("AND operators:",val1 and val2)
-print("OR operators:",(a==b) or (a>b))
+print("AND operators:",(a==b) and (a>b))
+print("OR operators",(a==b) or (a>b))
 
 #Logic Rulse:
 ##And:                       ##OR:
