@@ -68,8 +68,17 @@
 
 ## Negative index:
 
-str = "Apple"
-print(str[-4:-1])
+# str = "Apple"
+# print(str[-4:-1])
+
+# str = "Apple"
+# print(str[-4:-1])
+
+## negative index right side theke count hoy like -1,-2,-3 ....  
+## But last digit will be not count like -1                                                     
+
+
+
 
 
 
