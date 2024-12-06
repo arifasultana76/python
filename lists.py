@@ -55,9 +55,9 @@
 # list =[1,2,3]
 # print(list.sort())   ## Result will be none
 
-# list =[1,2,3]
-# print(list.sort())     ## Print(list) dileo reverse result not come
-# print(list) 
+list =[1,2,3]
+print(list.sort())     ## Print(list) dileo reverse result not come
+print(list) 
 
 
 # list =[1,2,3]
@@ -94,9 +94,34 @@
 
 ## List.insert(idx,el):
 
-list = [2,1,3]
-list.insert(1,5)      ## insert means element add. ans will be 2,5,1,3
-print(list)
+# list = [2,1,3]
+# list.insert(1,5)      ## insert means element add. ans will be 2,5,1,3
+# print(list)
+
+## List.remove(1):
+
+# list = [2,1,3]
+# list.remove(1)     ##Jeta remove korte chai seta braket er moddhe likhle seta remove hobe    
+# print(list)
+
+# list =["Arifa"]
+# list.remove(a)       ## This problem not work!
+# print(list)
+
+## List.pop(idx):
+
+# list =[1,2,3,4]      ##List.pop braket a index position num dile that position remove hobe.
+# list.pop(2)          ## Here's 2 means index position 3 will be remove  
+# print(list)  
+
+
+
+
+
+
+
+
+
 
 
 
