@@ -47,13 +47,8 @@ ch = str[0:13]
 print(ch)
 
 str ="Arifa Sultana"         ## This program is not run ##
-ch = str[:0]
+ch = str[:0]                 ## Cause end position a "0" not work
 print(ch)
-
-str = "Arifa Sultana"          ## This program is not run ##
-str = str[:0]
-print(str)
-
 
 str ="Arifa Sultana"
 ch = str[0:]
