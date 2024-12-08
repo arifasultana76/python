@@ -1,306 +1,307 @@
 ##Dictionary: Dictionary are uused to store data values in key:value pairs.
             # they are unordered,muteable(changeable)& don't allow duplicate keys.
 
-# dict = {
-#     "name":"Arifa",
-#     "CGPA": 9.6,             ## {} braket porjonto puro ta dictionary
-#     "marks":[98, 97, 95]
-# }
+dict = {
+    "name":"Arifa",
+    "CGPA": 9.6,             ## {} braket porjonto puro ta dictionary
+    "marks":[98, 97, 95]
+}
 
-# dict = {
-#     "name":"Arifa",
-#     "CGPA": 9.6,            
-#     "marks":[98, 97, 95]
-# }
+dict = {
+    "name":"Arifa",
+    "CGPA": 9.6,            
+    "marks":[98, 97, 95]
+}
 
-# print(dict)
-
-# info = {
-#     "name": "Arifa",
-#     "address": "Dhaka",
-#     "Mobile": "01810000000"
-# }
-
-# print(info)
+print(dict)
 
 
-# info = {
-#     "name": "Arifa",              ## dictionary te all type data neya jay.
-#     "address": "Dhaka",
-#     "Mobile": "01810000000",
-#     "learner": "coding",
-#     "age": 23,
-#     "is adult": True,
-#     "marks": 94.4
-# }
+info = {
+    "name": "Arifa",
+    "address": "Dhaka",
+    "Mobile": "01810000000"
+}
 
-# print(info)
+print(info)
 
-# info = {
-#     "name": "Arifa",
-#     "subject": ["python","c","java"],     ##Dictionary te strings,list,tuples use kora jay
-#     "Topics": ("dict", "set"),            ##Here's name,subject,topics,learner etc ke key bole.
-#     "learner": "coding",                  ##key word same howa jabe na.
-#     "age": 23,                            ##this code called information dictionary.
-#     "is adult": True,
-#     "marks": 94.4
-# }
 
-# print(info)
+info = {
+    "name": "Arifa",              ## dictionary te all type data neya jay.
+    "address": "Dhaka",
+    "Mobile": "01810000000",
+    "learner": "coding",
+    "age": 23,
+    "is adult": True,
+    "marks": 94.4
+}
 
-# info = {
-#     "name": "Arifa",
-#     "subject": ["python","c","java"],     
-#     "Topics": ("dict", "set"),            
-#     "learner": "coding",                  
-#     "age": 23,                            
-#     "is adult": True,
-#     "marks": 94.4
-# }
+print(info)
 
-# print(info["name"])
-# print(info["subject"])
-# print(info["learner"])
-# print(info["age"])
-# print(info["is adult"])
-# print(info["marks"])
+info = {
+    "name": "Arifa",
+    "subject": ["python","c","java"],     ##Dictionary te strings,list,tuples use kora jay
+    "Topics": ("dict", "set"),            ##Here's name,subject,topics,learner etc ke key bole.
+    "learner": "coding",                  ##key word same howa jabe na.
+    "age": 23,                            ##this code called information dictionary.
+    "is adult": True,
+    "marks": 94.4
+}
 
-# null_dict ={}                   ##Null_Dictionary te single value add kora jay.
-# null_dict["name"]= "Arifa"
-# print(null_dict)
+print(info)
+
+info = {
+    "name": "Arifa",
+    "subject": ["python","c","java"],     
+    "Topics": ("dict", "set"),            
+    "learner": "coding",                  
+    "age": 23,                            
+    "is adult": True,
+    "marks": 94.4
+}
+
+print(info["name"])
+print(info["subject"])
+print(info["learner"])
+print(info["age"])
+print(info["is adult"])
+print(info["marks"])
+
+null_dict ={}                   ##Null_Dictionary te single value add kora jay.
+null_dict["name"]= "Arifa"
+print(null_dict)
 
 
 ## Nested_Dictionary: Ekti dictionary er moddhe arekta dictionary thakle seta nested_dictionary.
 
-# student = {
+student = {
 
-#     "name": "Arifa",
-#     "sub":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",
+    "sub":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(student)
+print(student)
 
 #OR
 
-# student = {
+student = {
 
-#     "name": "Arifa",
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(student["subjects"])    ##All subject will be come
+print(student["subjects"])    ##All subject will be come
 
-# student = {
+student = {
 
-#     "name": "Arifa",
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(student["subjects"]["chem"])       ##Wehn i want to single subject
+print(student["subjects"]["chem"])       ##Wehn i want to single subject
 
 ## Dictionary Method:
 
 ## myDict.keys():
 
-# student = {
+student = {
 
-#     "name": "Arifa",
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
 # print(student.keys())
 
 
-# student = {
+student = {
 
-#     "name": "Arifa",
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
 # print(list(student.keys()))
 
-# student = {
+student = {
 
-#     "name": "Arifa",
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(len(student))
-# print(list(student.keys()))
+print(len(student))
+print(list(student.keys()))
 
-# student = {
+student = {
 
-#     "name": "Arifa",             ## I can't understand this code
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",             ## ans will be 2
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(len(list(student.keys())))
+print(len(list(student.keys())))
 
-# student = {
+student = {
 
-#     "name": "Arifa",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
 
 ## myDict.values():
 
-# print((student.values()))
+print((student.values()))
 
-# student = {
+student = {
 
-#     "name": "Arifa",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(list(student.values()))
+print(list(student.values()))
 
 
 ##myDict.items():
 
-# student = {
+student = {
 
-#     "name": "Arifa",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
 # print(student.items())
 
-# student = {
+student = {
 
-#     "name": "Arifa",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(list(student.items()))
+print(list(student.items()))
 
-# student = {
+student = {
 
-#     "name": "Arifa Sultana",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa Sultana",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
-# pairs = (list(student.items()))
-# print(pairs[0])
+}
+pairs = (list(student.items()))
+print(pairs[0])
 
-# student = {
+student = {
 
-#     "name": "Arifa Sultana",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa Sultana",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
-# pairs = (list(student.items()))
-# print(pairs[1])
+}
+pairs = (list(student.items()))
+print(pairs[1])
 
 
 ##myDict.get("key"):
 
-# student = {
+student = {
 
-#     "name": "Arifa Sultana",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa Sultana",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
+}
 
-# print(student["name"])
-# print(student.get("name"))
+print(student["name"])
+print(student.get("name"))
 
 ##myDict.update(newDict):
 
-# student = {
+student = {
 
-#     "name": "Arifa Sultana",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa Sultana",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
-# student.update({"city": "dhaka"})
-# print(student)
+}
+student.update({"city": "dhaka"})
+print(student)
 
 
-# student = {
+student = {
 
-#     "name": "Arifa Sultana",             
-#     "subjects":  {
-#         "phy": 97,
-#         "chem": 95,
-#         "math": 98
-#     }
+    "name": "Arifa Sultana",             
+    "subjects":  {
+        "phy": 97,
+        "chem": 95,
+        "math": 98
+    }
 
-# }
-# new_dict =({"city": "dhaka", "age": 23})
-# student.update(new_dict)
-# print(student)
+}
+new_dict =({"city": "dhaka", "age": 23})
+student.update(new_dict)
+print(student)
 
 student = {
 
