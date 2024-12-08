@@ -188,7 +188,7 @@ print(values)
 
 #Or
 
-values ={9,"9.0"}     ##Ans will be 9 &9.0
+values ={9,"9.0"}     ##Ans will be 9 & 9.0
 print(values)
 
 #Or
@@ -198,6 +198,7 @@ values = {
     ("int",9)
 }
 print(values) 
+
 
 
 
