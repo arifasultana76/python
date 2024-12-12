@@ -55,19 +55,14 @@
 # list =[1,2,3]
 # print(list.sort())   ## Result will be none
 
-list =[1,2,3]
-print(list.sort())     ## Print(list) dileo reverse result not come
-print(list) 
-
-
 # list =[1,2,3]
-# print(list.sort())    ## this method not work!
-# print(list)           ## Reverse digit ashar kotha
+# print(list.sort())     ## Print(list) dileo reverse result not come
+# print(list)    
 
 
 # list =["banana","litchi","mango"]
-# print(list.sort("banana"))     ## This method not work!
-# print(list)
+# print(list.sort("banana"))          ## sort er vitore string hobe na
+
 
 # list =["banana","litchi","mango"]
 # print(list.sort(reverse=True))
@@ -105,7 +100,7 @@ print(list)
 # print(list)
 
 # list =["Arifa"]
-# list.remove(a)       ## This problem not work!
+# list.remove("Arifa")       
 # print(list)
 
 ## List.pop(idx):
