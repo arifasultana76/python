@@ -39,12 +39,12 @@
 #     print(char)
 
 #code:
+
 # str = "Arifa"
 
 # for char in str:            
 #     print(char)
-# else:                      ## else use kora important na.
-#     print("End")
+# print("End")
 
 
 #code:
@@ -54,11 +54,20 @@
 # for char in str:
 #     if(char == 'a'):
 #         print("a found")
-#         break
+       
 #     print(char)
-
 # else:
 #     print("end")
+
+#if i remove letter a then :
+
+str = "ArifaSultana"
+new_str = ''
+for char in str:
+    if(char != 'a'):
+        new_str += char
+
+print(new_str)
 
 
 ##practice:
