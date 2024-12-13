@@ -85,7 +85,7 @@ print(list)
 
 list =['a','d','e','f','c','b']
 list.reverse()
-print(list)'
+print(list)
 
 ## List.insert(idx,el):
 
