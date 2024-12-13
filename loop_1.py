@@ -1,10 +1,10 @@
 
-Loops: loops are used to repeat instructions.
-loops 2 type: *while loops *for loops
+# Loops: loops are used to repeat instructions.
+# loops 2 type: *while loops *for loops
 
-While loops: 
+# While loops: 
 
-while condition: #some work
+# while condition: #some work
 
 count = 1
 while count <= 5 :
@@ -94,18 +94,18 @@ while i <= 10:
    print(3*i)
    i += 1
 
-another example:
+# another example:
 
 n = int(input("enter num:"))   ## je digit dibo sei digit er multiple tabel er ans ashbe
 i = 1
 while i <= 10:    
    print(n*i)
    i += 1
-   
-practice:
 
-Print the elements of the following list using a loop.
-[1,4,9,16,25,36,49,64.81,100]
+# practice:
+
+# Print the elements of the following list using a loop.
+# [1,4,9,16,25,36,49,64.81,100]
 
 nums = [1,4,9,16,25,36,49,64,81,100]
 
@@ -115,7 +115,7 @@ while idx < len(nums):     ##traverse bole bar bar check kore tai
    idx += 1
 
 
-Search for a number x in this tuple using loop.
+# Search for a number x in this tuple using loop.
 
 nums = (1,4,9,16,25,36,49,64,81,100)
 
@@ -124,7 +124,7 @@ while i < len(nums):
    print(nums[i])  
    i += 1
 
-another method:
+# another method:
 
 nums = (1,4,9,16,25,36,49,64,81,100)
 x = 36
@@ -134,7 +134,7 @@ while i < len(nums):
       print("FOUND at idx", i)
    i += 1
 
-another method:
+# another method:
 
 nums = (1,4,9,16,25,36,49,64,81,100,36)
 x = 36
@@ -148,11 +148,11 @@ while i < len(nums):
    i += 1
 
 
-Break & continue: (this are keys)
+# Break & continue: (this are keys)
 
-Break: used to terminate the loop when encountered.
-Continue: Terminates execution in the current iteration & continues execution 
-of the loop with the next iteration.
+# Break: used to terminate the loop when encountered.
+# Continue: Terminates execution in the current iteration & continues execution 
+# of the loop with the next iteration.
 
 i = 1
 while 1 <= 5:
@@ -177,7 +177,7 @@ while i < len(nums):
 print("end of loop")
 
 
-another:
+# another:
 
 i = 0
 while i<= 5:
@@ -187,7 +187,7 @@ while i<= 5:
    print(i)
    i +=1
 
-another:
+# another:
 
 i = 0
 while i<= 5:
