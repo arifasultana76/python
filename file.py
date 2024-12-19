@@ -74,7 +74,7 @@ print(line3)
 
 f.close()
 
-#Writing to a file:
+# #Writing to a file:
 
 f = open("demo.txt","w")
 f.write("this is a new line")   #overwrites the entire file
@@ -125,8 +125,8 @@ with open("demo.txt", "r") as f:
     data = f.read()
     print(data)
 
-with open("demo.txt", "r") as f:         # can't understand.
+with open("demo.txt", "r") as f:       #execute korbe na here's no function call.
     f.write("new data")
-
+  
 
 
