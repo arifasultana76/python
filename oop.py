@@ -271,22 +271,50 @@
 
 #Code:
 
-class student:
-    college_name ="ABC college"
+# class student:
+#     college_name ="ABC college"
 
-    def __init__(self,name, marks):  
-        self.name = name
-        self.marks = marks                  
+#     def __init__(self,name, marks):  
+#         self.name = name
+#         self.marks = marks                  
 
-    def welcome(self):
-        print("welcome student,", self.name) 
-    def get_marks(self): 
-        return self.marks  
+#     def welcome(self):
+#         print("welcome student,", self.name) 
+#     def get_marks(self): 
+#         return self.marks  
 
-s1 = student("Arifa", 96)
-s1.welcome()
-print(s1.get_marks())
+# s1 = student("Arifa", 96)
+# s1.welcome()
+# print(s1.get_marks())
 
-s2 = student("Rimi", 90)
-s2.welcome()
-print(s2.get_marks())
+# s2 = student("Rimi", 90)
+# s2.welcome()
+# print(s2.get_marks())
+
+
+# Important:
+
+#Abstraction: Hiding the implementation details of a class and only showing the essential features to the user.
+
+#code:
+
+class car:
+    def _init__(self):
+        self.acc = False
+        self.brk = False
+        self.clutch = False
+    
+    def start(self):   #This is class
+        self.clutch = True
+        self.acc = True 
+        print("car started...")
+
+car1 = car()
+car1.start()
+
+# Encapsulation: Wrapping data and functions into a single unit(object).
+
+#code:
+
+
+
