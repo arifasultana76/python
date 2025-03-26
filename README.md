@@ -1,1 +1,1 @@
-Here is my all the submissions which problems i solved in python!
+Here i have tried to note down everything about Python!
